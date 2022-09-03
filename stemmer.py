@@ -2,6 +2,8 @@
 class Stemmer:
     # Stores the words loaded from the words.txt file
     words = set()
+    # Stores the names loaded from the names.csv file
+    names = set()
     # Stores the suffixes loaded from the suffix.txt file
     suffixes = []
     # Stores all possible stems of a word
@@ -13,6 +15,8 @@ class Stemmer:
         self.__load_words()
         # Loads suffixes from the suffix.txt file
         self.__load_suffixes()
+
+        self.__load_names()
 
     # Destructor of the Stemmer class
     def __del__(self):
@@ -28,6 +32,14 @@ class Stemmer:
             for word in words_file:
                 # Trim the spaces and newline characters from the string before adding to the list
                 self.words.add(word.strip())
+
+    def __load_names(self):
+        # Open words.txt file in read mode with utf-8 encoding.
+        with open("names.csv", "r", encoding="utf8") as names_file:
+            # Iterate over each line in the words.txt file
+            for name in names_file:
+                # Trim the spaces and newline characters from the string before adding to the list
+                self.names.add(name.strip())
 
     # Loads the suffixes from the suffix.txt file into memory
     def __load_suffixes(self):
@@ -76,15 +88,19 @@ class Stemmer:
     # Returns the stemmed version of word
     def stem_word(self, word):
         # Change the word to lowercase.
-        word = word.lower()
+#        word = word
         # Convert if the word has changed root or suffix
         word = self.converter(word)
         # If word is already in the list, append it to stems list
         if word.isnumeric():
                 self.stems.append(word)
         else: 
-            if word in self.words:
+            if word.lower() in self.words:
                 self.stems.append(word)
+
+            if word in self.names:
+                self.stems.append(word)
+
         # Iterate through suffixes
         for suffix in self.suffixes:
                 # If word ends with current suffix, remove the suffix and stem again

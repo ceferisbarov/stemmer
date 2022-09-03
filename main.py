@@ -6,8 +6,10 @@ if __name__ == '__main__':
     # Instantiate Stemmer object
     my_stemmer = Stemmer()
     # Generate your text
-    with open("test1.txt", 'r', encoding="utf-8-sig") as text:
+    with open("test4.txt", 'r', encoding="utf-8-sig") as text:
         my_text = text.read()
+
+    my_text = "Alimə"
     # Preprocess your text: remove punctuation, lowercase the letters, trim the spaces and newlines, and split the text by space/s
     my_text=my_text.replace("İ", "I")
     my_text=my_text.replace("“", "")
