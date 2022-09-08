@@ -548,7 +548,6 @@ adyal
 adyunkt
 adyutant
 adyutantlıq
-Æ
 afaq
 afaqi
 afarlar
@@ -4878,7 +4877,6 @@ azyaşlı
 azyerli
 azyükgötürən
 azzəhərli
-b
 bab
 baba
 babacan
@@ -18600,10 +18598,6 @@ dzeren
 dzot
 dzü-do
 dzü-doçu
-É
-È
-Ê
-Ë
 əbabil
 əbcəd
 əbd
@@ -20015,7 +20009,6 @@ embrional
 əmdiril
 əmdirmə
 əmdir
-ə
 əməkçi
 əməkçilik
 əməkdar
@@ -23612,7 +23605,6 @@ gəlinbarmağı
 gəlinboğan
 gəlincə
 gəlincik
-gəlincik-gəlincik,
 gəlin-gəlin
 gəlingörməsi
 gəlinli
@@ -27714,8 +27706,6 @@ hüznlə
 hüznsüz
 hüzr
 hüzur
-Î
-Ï
 ianə
 ianəçi
 ianəçilik
@@ -28660,7 +28650,6 @@ imdadsız
 imdadsızlıq
 iməci
 iməcilik
-i
 iməkləmə
 iməklə
 iməklətmə
@@ -34798,7 +34787,6 @@ küçəaşağı
 küçə-bazar
 küçəbəküçə
 küçəli
-küçəmənədargəlir,
 kuçerov
 küçəsalma
 küçəsüpürən
@@ -36404,7 +36392,6 @@ lisey
 listerellyoz
 listerioz
 listvenit
-litavra,
 litavraçalan
 liter
 literli
@@ -37215,7 +37202,6 @@ maoist
 maoizm
 maopərəst
 maori
-
 maqma
 maqmatik
 maqnat
@@ -41022,7 +41008,6 @@ müqayisələn
 müqayisəli
 müqayisəlilik
 müqayisəli-tarixi
-müqayisəli-tipoloji,
 müqayisəsiz
 müqayisəyəgəlməz
 müqəddəm
@@ -41532,7 +41517,6 @@ muzula
 müzür
 müzürlük
 myao
-Ñ
 naavand
 naavandlıq
 nabat
@@ -41761,7 +41745,6 @@ namüvafiq
 namüvafiqlik
 namvar
 namxuda
-nan
 nanay
 nandi
 nandu
@@ -43389,9 +43372,6 @@ nüvəyanı
 nuvistor
 nyuton
 o
-Ó
-Õ
-Ø
 oaykı
 oazis
 oba
@@ -43690,7 +43670,6 @@ oksigenli
 oksigenoterapiya
 oksigensizlik
 oksihemoqlobin
-oksimoron,
 oksisefaliya
 oksitetrasiklin
 oksiturşu
@@ -46688,7 +46667,6 @@ pinti
 pintiləşmə
 pintiləş
 pintilik
-pintimənigeyməsin,
 piodermiya
 pion
 pioner
@@ -60844,7 +60822,6 @@ srağagünkü
 şrift
 şrifttökən
 şriftyığan
-ß
 ssenari
 ssenariçi
 ssenariçilik
@@ -64910,7 +64887,6 @@ təzyiqli
 təzyiqölçən
 tezyorulma
 tfu
-Þ
 tiamin
 tiaminbromid
 tiaminxlorid
@@ -66568,9 +66544,6 @@ tuvalı
 tuyuq
 tuz
 tvist
-Ú
-Ù
-ü
 uc
 üç
 ucaboy
@@ -70753,7 +70726,6 @@ xüsusunda
 xütbə
 xutor
 xux
-Ý
 ya
 yaba
 yabacıq
@@ -71988,7 +71960,6 @@ yarpaq
 yarpaqaltlığı
 yarpaqayaqlı
 yarpaqbükən
-yarpaqbürüşdürən,
 yarpaqcıq
 yarpaqdolması
 yarpaqgəmirən
@@ -74445,7 +74416,6 @@ yüzxanalı
 yüzxanalıq
 yüzyaşlı
 yüz-yüz
-z
 zabil
 zabit
 zabitə
