@@ -1,3 +1,6 @@
+import os
+dirname = os.path.dirname(__file__)
+
 # Stemmer class definition
 class Stemmer:
     # Stores the words loaded from the words.txt file
@@ -27,7 +30,9 @@ class Stemmer:
     # Loads the words from the word.txt file into memory
     def __load_words(self):
         # Open words.txt file in read mode with utf-8 encoding.
-        with open("assets/words.txt", "r", encoding="utf8") as words_file:
+        words_file = os.path.join(dirname, "assets/words.txt")
+
+        with open(words_file, "r", encoding="utf8") as words_file:
             # Iterate over each line in the words.txt file
             for word in words_file:
                 # Trim the spaces and newline characters from the string before adding to the list
@@ -35,7 +40,9 @@ class Stemmer:
 
     def __load_names(self):
         # Open words.txt file in read mode with utf-8 encoding.
-        with open("assets/names.csv", "r", encoding="utf8") as names_file:
+        names_file = os.path.join(dirname, "assets/names.csv")
+
+        with open(names_file, "r", encoding="utf8") as names_file:
             # Iterate over each line in the words.txt file
             for name in names_file:
                 # Trim the spaces and newline characters from the string before adding to the list
@@ -44,7 +51,9 @@ class Stemmer:
     # Loads the suffixes from the suffix.txt file into memory
     def __load_suffixes(self):
         # Open suffix.txt file in read mode with utf-8 encoding
-        with open("assets/suffix.txt", "r", encoding="utf8") as suffix_file:
+        suffix_file = os.path.join(dirname, "assets/suffix.txt")
+
+        with open(suffix_file, "r", encoding="utf8") as suffix_file:
             # Iterate over each line in the suffix.txt file
             for suffix in suffix_file:
                 # Trim the spaces and newline characters from the string before adding to the list
@@ -119,7 +128,6 @@ class Stemmer:
             selected_stem = ""
             # Choose the stem with the maximum length
             for stem in self.stems:
-                print(stem)
                 if len(stem) > len(selected_stem): selected_stem = stem
             # If there is no selected stem for word, append the word itself
             if selected_stem == "":
